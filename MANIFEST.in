@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include agnikul_cosmos *.css
+recursive-include agnikul_cosmos *.csv
+recursive-include agnikul_cosmos *.html
+recursive-include agnikul_cosmos *.ico
+recursive-include agnikul_cosmos *.js
+recursive-include agnikul_cosmos *.json
+recursive-include agnikul_cosmos *.md
+recursive-include agnikul_cosmos *.png
+recursive-include agnikul_cosmos *.py
+recursive-include agnikul_cosmos *.svg
+recursive-include agnikul_cosmos *.txt
+recursive-exclude agnikul_cosmos *.pyc
